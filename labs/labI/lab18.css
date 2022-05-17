@@ -1,0 +1,51 @@
+ #bor{
+background-color:lightseagreen;        
+ width: 10%;
+height:10%;
+border: 3px solid green;
+ padding: 5px;
+position:relative;
+ left:700px;
+}
+.button{
+  position:absolute;
+  top:800px;
+  right:700px;
+}
+#position{
+  background-color:pink;
+border-width:3px;
+  border-radius:3px ;
+  border-style:dashed;
+}
+#shape{
+  background-color:red;
+  border-width:3px;
+  border-radius:3px;
+  border-style:dashed;
+}
+#size{
+  background-color:green;
+  border-width:3px;
+  border-radius:3px ;
+  border-style:dashed;
+}
+#color{
+  background-color:#ffbdbd;
+  border-width:3px;
+  border-radius:3px ;
+  border-style:dashed;
+}
+#color:hover{
+  background-color:#aaaafd;
+
+}
+#size:hover{
+  background-color:#aaf3fd;
+}
+#shape:hover{
+  background-color:#fdaafa;
+}
+#position:hover{
+  background-color:#edaa7e;
+}

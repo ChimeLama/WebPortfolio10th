@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+ 
+</head>
+
+<body>
+  <div id="top">
+  <div class="topnav"> 
+    <ul><a href="https://web-academy-2021-2022.princess-alecks.repl.co/">Princess' Portfolio</a></ul>
+    <ul><a href="https://webacademy2021.chimelama.repl.co/"> Chime's portfoliio</a></ul>
+    <ul><a href="https://web-academy-2021-2022.princess-alecks.repl.co/">Princess' Labs</a></ul>
+        <ul><a href="https://webacademy2021.chimelama.repl.co/"> chime's Labs</a></ul>
+    <ul><a href="https://web-academy-2021-2022.princess-alecks.repl.co/">Princess' Projects</a></ul>
+        <ul><a href="">Chime's Projects</a></ul>
+    <ul><a href="biography.html">Chime's Biography</a></ul>
+     <ul><a href="biographyprin.html">Princess' Biography</a></ul>
+    <ul><a href="https://www.taehs.org/">Teachtech</a></ul>
+    <ul><a href="blog">Blog</a></ul>
+   
+  </div>
+   <h1>Lab Rollovers by Name</h1>
+  </div>
+<div id="hoverover">
+   
+  <h2> HTML Hoverover</h2>
+  <img src="https://cdn.mos.cms.futurecdn.net/VSy6kJDNq2pSXsCzb6cvYF.jpg" width="250px"
+onmouseover="this.src='https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/other/cat_relaxing_on_patio_other/1800x1200_cat_relaxing_on_patio_other.jpg';"
+onmouseout="this.src='https://cdn.mos.cms.futurecdn.net/VSy6kJDNq2pSXsCzb6cvYF.jpg';">
+</img>
+  <br>
+   <b> The hoverover is created with only html. When you hover over it, this image changes. </b>
+</div>
+
+<div id="hoverover">
+  <h1>JavaScript Rollover</h1>
+</div>
+
+  <img src="2.png" width="400" name="r1"/> 
+
+  <div id="red">
+<table width="1000">
+  <tr>
+    <td align="center">
+<img src="2.png" width="100" 
+  onmouseover="document.r1.src=pic1.src;"/>
+    </td>
+    <td>
+<img src="3.png" width="100" 
+  onmouseover="document.r1.src=pic2.src;"/>
+  </td>
+    <td>
+<img src="4.jpg" width="100" 
+  onmouseover="document.r1.src=pic3.src;"/> 
+  </td>
+  <td>
+<img src="5.jpg" width="100" 
+  onmouseover="document.r1.src=pic4.src;"/>
+  </td>
+  <td>
+<img src="6.jpg" width="100" 
+  onmouseover="document.r1.src=pic5.src;"/>
+  </td>
+  </tr>
+</table>
+</div>
+  
+  <div>
+    <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b>
+  </div>
+ 
+  <script>
+    if(document.images){
+      pic1=new Image();
+      pic2=new Image();
+      pic3=new Image();
+      pic4=new Image();
+      pic5=new Image();
+      pic1.src='2.png';
+      pic2.src='3.png';
+      pic3.src='4.jpg';
+      pic4.src='5.jpg';
+      pic5.src='6.jpg';
+    }
+    else{
+      pic1=pic2=pic3=pic4=pic5=document.r1="";
+    }
+    
+  </script>
+   </div> <a href="../../index.html">GO BACK HOME</a>
+</body>
+</html>

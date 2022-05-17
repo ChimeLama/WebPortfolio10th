@@ -1,0 +1,179 @@
+/* in line 2 i am changing the norder size*/
+*{
+box-sizing: border-box;
+}
+/* here i can change anything that is in the body */
+
+/* Style of the header */
+/* Style of the navigation bar */
+.topnav{
+  background-color:	#b1a6e8;
+  overflow: hidden;
+  
+}
+/* style links inside the navigation bar"*/
+.topnav a{
+  color: chocolate;
+  float: left;
+  display: block;
+  text-align: end;
+  padding: 5px 6px;
+}
+/* changes color on hover or mouse ove */
+.topnav a:hover{
+  background-color:#87CEFA;
+  color:crimson;
+
+}
+.header{
+  background-color:	#E6E6FA;
+  padding: 20px;
+  text-align: center;
+  color:#6B8E23;
+}
+/* create 3 equal colums that float next to each other */
+.column{
+  float: right;
+  width:33.33%;
+  padding:15px;
+   border-style: dashed;
+  border-bottom-color: rgb(134, 42, 107);
+ margin:5px;
+   box-shadow: 5px 10px #888888;
+background-color: #D8BFD8;
+}
+.box{
+ border: rgb(109, 10, 10) solid 10px;
+ background-color:#888888;
+ width:500px;
+ height:500px;
+ float:left;
+ padding:3px;
+ margin:5px;
+ overflow:hidden;
+}
+
+#emoji{
+width:470px;
+height:470px;
+}
+img.sam:hover{
+  display:none;
+  
+}
+.sam{
+width:70px;
+height:60px;
+position: absolute;
+left:200px;
+bottom:5px;
+}
+.hidden{
+   border: rgb(109, 10, 10) solid 10px;
+ background-color:#888888;
+ width:500px;
+ height:500px;
+ float:left;
+ padding:3px;
+ margin:5px;
+ overflow:hidden;
+}
+#hunt{
+  width:470px;
+height:470px;
+}
+.coin{
+  width:70px;
+height:60px;
+position: absolute;
+right:600px;
+bottom:100px;
+opacity:0;
+}
+
+.coin:hover{
+opacity:1;
+}
+.choco{
+  width:70px;
+height:60px;
+position: absolute;
+right:800px;
+bottom:150px;
+  opacity:0;
+}
+.choco:hover{
+  opacity:1;
+}
+.bird{
+    width:70px;
+height:60px;
+position: absolute;
+right:800px;
+top:350px;
+  opacity:0;
+}
+.bird:hover{
+  opacity:1;
+}
+.squir{
+  width:70px;
+height:60px;
+position: absolute;
+right:700px;
+bottom:50px;
+opacity:0;
+}
+.squir:hover{
+  opacity:1;
+}
+
+.snake{
+  width:70px;
+height:60px;
+position: absolute;
+right:650px;
+bottom:100px;
+top:450px;
+  opacity:0;
+}
+.snake:hover{
+  opacity:1;
+}
+/* .hide {
+  display: none;
+}
+    
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
+put vivbility:hidden in ther div first and then again on the im.sam hover .box{
+ border: rgb(109, 10, 10) solid 10px;
+ background-color:#888888;
+ width:500px;
+ height:500px;
+ position: relative;
+ left:500px;
+ padding:3px;
+ margin:5px;
+ overflow:hidden;
+}
+#emoji{
+width:470px;
+height:470px;
+}
+img.sam:hover{
+  display:none;
+  
+}
+.sam{
+width:70px;
+height:60px;
+position: absolute;
+left:170px;
+top:300px;
+right:50px;
+
+}
+*/

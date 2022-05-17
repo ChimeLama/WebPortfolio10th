@@ -1,0 +1,22 @@
+#text{
+  text-align:center;
+  border:4px dashed;
+  border-radius: 10px;
+  border-color:green;
+  background-color:#D1F2EB;
+}
+#butt{
+  background-color:#85C1E9;
+}
+#demo{
+  text-align:center;
+  border:2px solid #939ffb;
+  color:#7B7D7D;
+  border-radius: 20px;
+}
+body{
+  background-color:#ABEBC6;
+}
+.header{
+  background-color:#AED6F1;
+}

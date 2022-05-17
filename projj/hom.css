@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
+
+body{
+
+    font-family: 'Balsamiq Sans', 'cursive';
+    background-color: #97c5d8;
+}
+#poop{
+  color: #f485c6;
+  font-size:80px;
+  text-align:center;
+}

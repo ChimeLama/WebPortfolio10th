@@ -1,0 +1,59 @@
+body{
+  text-align:center;
+  background-color:#aef9ae;
+  color:#fb506d;
+}
+#hoverover{
+  border-bottom:2px solid;
+  padding:10px;
+}
+#top{
+  border-bottom:2px solid;
+  padding:5px;
+}
+#jsrollover{
+   border-bottom:2px solid;
+  padding:10px;
+  padding-bottom: 10px;
+}
+.topnav{
+  background-color:	#bec0f4;
+  overflow: hidden;
+  border: 2px dashed;
+}
+/* style links inside the navigation bar"*/
+.topnav a{
+  color: chocolate;
+  float: left;
+  display: block;
+  text-align: end;
+  padding: 5px 6px;
+  color:aliceblue;
+}
+/* changes color on hover or mouse ove */
+.topnav a:hover{
+  background-color:#87CEFA;
+  color:crimson;
+
+}
+
+#red{
+  margin-left: 250px;
+  margin-right: 250px;
+}
+#bb{
+  font-size:17px;
+  border:3px dotted;
+  padding:10px;
+  background-color:#f2b1d7;
+  color:#025a02 ;
+   text-shadow: 1px 1px #f6eaea;
+  width: 300px;
+  height: 200px;
+  overflow: scroll;
+left:40%;
+  position:relative;
+}
+.header{
+  background-color:#bbf297;
+}

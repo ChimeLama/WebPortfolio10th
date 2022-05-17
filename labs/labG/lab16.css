@@ -1,0 +1,141 @@
+.wrapper{
+  text-align:center;
+  padding:1px;
+  background-color:#F1C0AE;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  border:1px solid;
+  border-radius: 30px; /*makes the border round*/
+  padding:30px;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  display:block;
+ /* width:600px;
+  heght:500px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  padding:4px;
+    outline-offset:-15px;
+  outline:black solid 7px*/
+  color:red;
+  box-sizing:content-box;
+}
+/*the * represents everything in the html so selecting everything*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:"Helvetica", sans-serif;
+  box-sizing:content-box;
+}
+/*this applies to code only in the body*/
+body{
+  background-color:#F2E8D9;
+  height:100vh;
+  width:100vw;
+  display:block;
+  position:relative;
+  box-sizing:content-box;
+}
+.section_userform{
+  width:75%;
+displey:block;
+  margin:0 auto;
+  color:white;
+
+}
+.input_label{
+  width:35%;
+  text-aling:right;
+  font-size:1.5em;
+  color:green;
+}
+.break{
+  display:block;
+  width:100%;
+  margin:2em;
+  
+}
+.textbox{
+  width:50%;
+  height:1.8em;
+  box-sizing:content-box;
+  background-color:#F39683;
+  border-color:#F1C0AE;
+  padding-left:em;
+  color:white;
+}
+.button{
+  display:block;
+  margin:none;
+  padding:o.5 em 2.5 em;
+  text-transform:uppercase;
+  background-color:#F39683;
+  border-color:#F39683;
+  border-width:3px;
+  border-radius:3px;
+  border-style:dashed;
+  font-size:1.3em;
+}
+.button:hover{
+  background-color:#fdc0aa;
+  color:#f0784c;
+  border-color:#CAF4BA;
+  transform:scale(1.05);
+}/*for when you hover you can see the style change*/
+.buttonWrapper{
+  display:grid;
+  justify-content:center;
+  }
+.section_info{
+  text-align:center;
+  margin:.5em;
+  color:#43c8f4;
+}
+.section_info h1{
+  font-size:5em;
+}
+#line{
+  border-color:#F08A44;
+  width:80%;
+  margin-bottom:4em;
+}
+.result{
+  wifdth:45%;
+  text-align:left;
+  display:inline-block;
+  font-size:1.5em;
+  color:#fff;
+
+}
+.result_label{
+  width:40%;
+  text-align:right;
+  display:inline-block;
+  font-size:1.5em;
+  color:#ff2e2e;
+}
+#before{
+  opacity:1;
+  display:block;
+}
+#after{
+  display:none;
+  opacity:0;
+  
+}
+#input_username_button:focus #after{
+  display:block;
+  opacity:1;
+  
+}
+#input_username_button:focus #before{
+  display:hidden;
+  opacity:0;
+  position:absolute;
+  top:800px;
+}

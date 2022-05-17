@@ -1,0 +1,83 @@
+.dropdown{
+  position: relative;
+  display:inline-block;
+}
+.dropdown-content{
+display:none;
+  position:absolute;
+  background-color:lightseagreen;
+  min-width:160px;
+  box-shadow: 0px 8px 16px 0px;
+  padding:12px 16px;
+  z-index: 1;
+  color:black;
+  text-decoration:none;
+}
+.dropdown:hover .dropdown-content{
+  display:block;
+  /*can add style properties*/
+  
+}
+.dropdown-content{
+  color:white;
+}
+.dropdown{
+  color:white;
+  background-color:grey;
+  cursor:pointer;
+  font-size:16px;
+  margin:10px;
+  border:dashed;
+  border-color:purple;
+}
+.dropdown-content:hover{
+  background-color:darkseagreen;
+}
+.dropdown:hover{
+  background-color:;
+}
+.dropdown{
+  cursor:pointer;
+}
+.dropdown:hover .list{
+ background-color:grey;
+}
+.dropdown a{
+  color:red;
+  padding:12px 16px;
+  display:block;
+  text-decoration:none;
+ display:none;
+  background-color:floralwhite;
+  border:1px solid black;
+  cursor:pointer;
+}
+.dropdown:hover a{
+display:block;
+  background-color:grey;
+  font-color:blue;
+  border: 0.1px solid white;
+}
+.dropdown:hover a:hover{
+  background-color:white;
+  color:green;
+}
+.dropdown img{
+  width:200px; 
+}
+.dropdown-content img{
+  width:500px;
+  border:none;
+}
+.caption{
+  display:none;
+}
+.dropdown img{
+  border:10px dotted yellow;
+}
+.dropdown-content:hover .caption{
+  display:block;
+  color:green;
+  backgroun-color:red;
+}
+

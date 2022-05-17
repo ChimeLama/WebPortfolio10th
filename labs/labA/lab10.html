@@ -1,0 +1,145 @@
+
+<!--doctype HTML-->
+<html>
+
+         <head>
+               <title>internal CSS</title>
+               <style>
+               /*the * works as a universal selector for css*/*{
+                 box-sizing:border-box;
+               }
+               /* A CSS selector selects the html ELEMENTS you want to style.simple selectors(select elements based on name ,id,class) */
+               /* any html tag can be a selecto. for example*/
+               body{
+                 background-image:url("https://i.pinimg.com/originals/69/07/bd/6907bd70db595d8222dac84aab91b6a7.gif");background-size:55% 60%;background-size:cover;
+               color:white; }
+               /*The class selector selects html elements with specific class atribute.
+               to select elements with a specific class write a period(.) charaxcter, followed by the class name*/
+                 .header{
+                   text-align:center; 
+                   padding:20px;
+                   margin:5px;
+                   color:black;
+                   background-image:repeating-radial-gradient(pink,purple);
+                   family-font:cursive;
+                 }
+                 
+                 .topnav{
+background-color:grey;
+overflow:hidden;
+                 }
+                .topnav a{
+  color: chocolate;
+  float: left;
+  display: block;
+  text-align: end;
+  padding: 5px 6px;
+}
+/*tag selector example*/
+h1{
+  color:red;
+}
+#h2{
+  color:blue;
+}
+
+ /* the id selector uses id attribute of an html element to select specific element 
+               the id of and el;ement is unique within a page so the id selector is used to select unique element. 
+               to select an element with a specific id write hash (#) character, followed by the id of the element */
+/* this will only affect the html element labeled id="maan*/
+#maan h1{
+color:green;
+}
+.header h2{ color:blue;}
+.header h3{ color:purple;}
+.header h4{ color:orange;}
+.header h5{ color:grey;}
+
+/* the grouping selector selects all htl element with the same style definitions
+it will be better to group the selectors , to minimize the code to the group selector, seperate each selector with a comma*/
+h1,h2,p{}
+/* css combinators
+Combinators is something that expkains the relationship between the selectors.
+a CSS selector can contain more than none simple selector.Between the simple selectors, we can include a combinator.
+there are four different combinators CSS:
+Descendant selector( space)
+child selector(>)
+adjacent sibling selector(+)
+general sibling selector(~)*/
+/* a pdeudo- class is used to define a special state of an element.for example, it can be used to: stylr an element when a user mouses over style visited and unvisited links different style an element when it gets focus*/
+a:link{
+  color:brown;
+}
+a:visited{color:green;}
+/*The [attribute] selector is used to select elements with a specified attribute.the followuing example selects all <a> elements with a target attribute*/ 
+a[target]{ background-color:yellow;} 
+                  </style>
+               <link rel="shortcut icon" href="../piccat.png"type="image/x-icon">
+               <link href="../../MainPortfolio.css" rel="stylesheet" type="text/css" />
+              
+         </head>
+         <body>
+           <div class="topnav">
+ <a href="../lab1/lab1.html">LAB #1</a>
+
+ <a href="../lab2/lab2.html">LAB #2</a>
+
+ <a href="../lab3/lab3.html">LAB #3</a>
+
+ <a href="../lab4/lab4.html">LAB #4</a>
+
+ <a href="../lab5/lab5.html">LAB #5</a>
+
+ <a href="../lab6/lab6.html">LAB #6</a>
+
+  <a href="../lab7/lab7.html">LAB #7</a>
+
+   <a href="../lab8/lab8.html">LAB #8</a>
+
+    <a href="../lab9/lab9.html">LAB #9</a>
+   
+     <a href="../labA/lab10.html">LAB #10</a>
+
+  <a href="../labB/lab11.html">LAB #11</a>
+
+ <a href="../labC/lab12.html">LAB #12</a>
+
+ <a href="../labD/lab13.html">LAB #13</a>
+
+ <a href="../labE/lab14.html">LAB #14</a>
+
+ <a href="../labF/lab15.html">LAB #15</a>
+
+ <a href="../labG/lab16.html">LAB #16</a>
+
+  <a href="../labH/lab17.html">LAB #17</a>
+
+   <a href="../labI/lab18.html">LAB #18</a>
+
+    <a href="../labJ/lab19.html">LAB #19</a>
+   
+     <a href="../labK/lab20.html">LAB #20</a>
+
+ 
+
+  </div> <marquee  behavior="scroll" direction="right" scrollamount="20">
+   <img src="../../baner.png" alt="banner" width="50%" height="300px">
+</marquee>
+           <div class="header">
+             <h1>TAEHS</h1>
+             <h2>WEB</h2>
+             <h3>Lab</h3>
+             <h4>feb 9 </h4>
+             <h5>Chime lama</h5>
+             </div>
+<div id="maan">
+  <h1>Chime</h1>
+  <h1 id="h2">lama</h1>
+  <h1>feb 9</h1>
+<h2>Descendent selector</h2>
+<p>The descendent selector matches all elements that are descendants of a specified element</p>
+</div>
+               
+            
+       <a href="../../index.html">GO BACK HOME</a>
+         </body></html>
