@@ -1,5 +1,7 @@
 /* in line 2 i am changing the norder size*/
 *{
+    cursor: url(https://cur.cursors-4u.net/food/foo-6/foo512.cur),auto!important;
+
 box-sizing: border-box;
 }
 /* here i can change anything that is in the body */
